@@ -1,0 +1,33 @@
+[
+  {
+    "title": "Chat Application",
+    "imageSrc": "projects/project.png",
+    "description": "Developed a feature-rich Android chat application focusing on real-time messaging.",
+    "skills": [
+      "Kotlin",
+      "XML",
+      "Google Firebase"
+    ],
+    "source": "https://github.com/vanshikaverma13/ChatApplication"
+  },
+  {
+    "title": "Code Editor",
+    "imageSrc": "projects/project.png",
+    "description": "Provides real-time editing and previewing of HTML, CSS, and JavaScript at the same time.",
+    "skills": [
+      "React",
+      "HTML","JavaScript"
+    ],
+    "source": "https://github.com/vanshikaverma13/code-editor"
+  },
+  {
+    "title": "News Application",
+    "imageSrc": "projects/project.png",
+    "description": "Utilized News API to fetch and display news articles based on various categories. ",
+    "skills": [
+      "React",
+      "HTML","JavaScript"
+    ],
+    "source": "https://github.com/vanshikaverma13/news-world"
+  }
+]
