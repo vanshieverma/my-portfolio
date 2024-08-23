@@ -1,9 +1,6 @@
 import React from "react";
 import styles from "./Hero.module.css";
-
-
 import heroImage from "../../assets/hero/heroImage.png";
-
 
 export const Hero = () => {
   return (
@@ -11,7 +8,7 @@ export const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, I'm Vanshika</h1>
         <p className={styles.description}>
-          I'm an aspiring Software Developer with a strong foundation in coding and a passion for innovative technology solutions. Reach out if you'd like to learn more!
+          Coding enthusiast who built this portfolio from scratch—because why not make things fun and personal?
         </p>
         <a href="mailto:vanshieverma@email.com" className={styles.contactBtn}>
           Contact Me
@@ -19,8 +16,6 @@ export const Hero = () => {
       </div>
       <img
         src={heroImage}
-      
-        alt="Hero image of me"
         className={styles.heroImg}
       />
     </section>

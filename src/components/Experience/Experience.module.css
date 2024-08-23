@@ -1,14 +1,14 @@
 @import "../../vars.css";
 
 .container {
-  color: var(--color-text);
+  color: var(--color-black);
   margin-top: 79px;
   margin-left: 10%;
   margin-right: 10%;
 }
 
 .title {
-  color: var(--color-text);
+  color: var(--color-black);
   font-size: 35px;
   font-weight: 700;
   letter-spacing: 1.75px;
@@ -37,7 +37,7 @@
 }
 
 .skillImageContainer {
-  background-color: var(--color-secondary);
+  background-color: var(--color-dark);
   border-radius: 100%;
   display: flex;
   align-items: center;
@@ -68,8 +68,7 @@
   flex-direction: row;
   align-items: center;
   gap: 17px;
-  background: #ffccf9;
-  background: linear-gradient(90deg, #ffccf9 0%, rgba(255, 204, 249, 0) 100%);
+  background: linear-gradient(90deg, hsla(177, 33%, 79%, 1) 50%, hsla(202, 17%, 42%, 1) 100%);
   border-radius: 10px;
   padding: 24px;
 }

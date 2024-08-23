@@ -1,19 +1,18 @@
-
 [
     {
-      "role": "Frontend Developer",
-      "description": "I'm a frontend developer with experience in building responsive and optimized sites.",
-      "imageSrc": "assets/history/cursorIcon.png"
+      "role": "Web Developer",
+      "description": "Skilled in building dynamic applications using React.",
+      "imageSrc": "ui"
     },
     {
-      "role": "Backend Developer",
-      "description": "I have experience developing fast and optimised back-end systems and APIs.",
-      "imageSrc": "history/serverIcon.png"
+      "role": "Android Developer",
+      "description": "Experienced in creating robust apps for mobile platforms.",
+      "imageSrc": "server"
     },
     {
       "role": "UI/ UX Designer",
-      "description": "I also love designing various websites and applications as well.",
-      "imageSrc": "../assets/history/uiIcon.png"
+      "description": "Love designing various websites and applications as well.",
+      "imageSrc": "cursor"
     }
   ]
   

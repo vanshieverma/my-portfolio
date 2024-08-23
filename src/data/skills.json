@@ -1,39 +1,38 @@
 [
-    {
-      "title": "HTML",
-      "imageSrc": "skills/html.png"
-    },
-    {
-      "title": "CSS",
-      "imageSrc": "skills/css.png"
-    },
-    {
-      "title": "JavaScript",
-      "imageSrc": "skills/javascript.png"
-    },
-    {
-      "title": "ReactJS",
-      "imageSrc": "skills/react.png"
-    },
-    {
-      "title": "MySQL",
-      "imageSrc": "skills/mysql.png"
-    },
-    {
-      "title": "Java",
-      "imageSrc": "skills/java.png"
-    },
-    {
-      "title": "Kotlin",
-      "imageSrc": "skills/kotlin.png"
-    },
-    {
-      "title": "Python",
-      "imageSrc": "skills/python.png"
-    },
-    {
-      "title": "PHP",
-      "imageSrc": "skills/php.png"
-    }
-  ]
-  
+  {
+    "title": "HTML",
+    "imageSrc": "html"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "css"
+  },
+  {
+    "title": "JavaScript",
+    "imageSrc": "javascript"
+  },
+  {
+    "title": "ReactJS",
+    "imageSrc": "ireact"
+  },
+  {
+    "title": "SQL",
+    "imageSrc": "sql"
+  },
+  {
+    "title": "Java",
+    "imageSrc": "java"
+  },
+  {
+    "title": "Kotlin",
+    "imageSrc": "kotlin"
+  },
+  {
+    "title": "Python",
+    "imageSrc": "python"
+  },
+  {
+    "title": "PHP",
+    "imageSrc": "php"
+  }
+]

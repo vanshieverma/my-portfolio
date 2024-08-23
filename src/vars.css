@@ -1,8 +1,7 @@
 :root {
-    --color-text: #ffffff;
-    --color-primary: #ffccf9;
-    --color-secondary: #d4a6d9;
-    --color-dark: #a37ea1;
-    --color-bg: #654669;
+    --color-white: #F4F4F9;
+    --color-dark: #586F7C;
+    --color-black: #000000;
+    --color-bg: #B8DBD9;
     --font-roboto: "Roboto";
 }
