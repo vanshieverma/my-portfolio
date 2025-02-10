@@ -1,18 +1,13 @@
 [
     {
-      "role": "Web Developer",
-      "description": "Skilled in building dynamic applications using React.",
-      "imageSrc": "ui"
-    },
-    {
-      "role": "Android Developer",
-      "description": "Experienced in creating robust apps for mobile platforms.",
+      "role": "Backend Developer",
+      "description": "Skilled in building efficient and scalable server-side solutions using C# .NET Core.",
       "imageSrc": "server"
     },
     {
-      "role": "UI/ UX Designer",
-      "description": "Love designing various websites and applications as well.",
-      "imageSrc": "cursor"
+      "role": "Frontend Developer",
+      "description": "Creating intuitive and responsive user interfaces with React.",
+      "imageSrc": "ui"
     }
   ]
   

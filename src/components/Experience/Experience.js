@@ -6,27 +6,21 @@ import { getImageUrl } from "../../utils";
 import serverIcon from "../../assets/history/serverIcon.png";
 import cursorIcon from "../../assets/history/cursorIcon.png";
 import uiIcon from "../../assets/history/uiIcon.png";
-import html from "../../assets/skills/html.png";
-import css from "../../assets/skills/css.png";
-import javascript from "../../assets/skills/javascript.png";
-import java from "../../assets/skills/java.png";
-import kotlin from "../../assets/skills/kotlin.png";
-import ireact from "../../assets/skills/ireact.png";
-import php from "../../assets/skills/php.png";
+import react from "../../assets/skills/react.png";
 import python from "../../assets/skills/python.png";
 import sql from "../../assets/skills/sql.png";
+import cs from "../../assets/skills/cs.png";
+import dotnet from "../../assets/skills/dotnet.png";
+import node from "../../assets/skills/node.png";
 
 export const Experience = () => {
   const skillImages = {
-    html: html,
-    css: css,
     python: python,
-    php: php,
-    kotlin: kotlin,
-    java: java,
-    javascript: javascript,
     sql: sql,
-    ireact: ireact
+    react: react,
+    cs: cs,
+    dotnet: dotnet,
+    node: node
   };
 
   const historyImages = {

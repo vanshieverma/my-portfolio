@@ -62,14 +62,16 @@
   .menuItems {
     display: none;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     gap: 13px;
     border-radius: 10px;
     padding: 24px 33px;
   }
 
   .menuOpen {
+    background-color: rgba(101, 70, 105, 0.7);
     display: flex;
     z-index: 1;
+    color: white;
   }
 }

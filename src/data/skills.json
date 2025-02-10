@@ -1,38 +1,27 @@
 [
   {
-    "title": "HTML",
-    "imageSrc": "html"
+    "title": "C#",
+    "imageSrc": "cs"
   },
   {
-    "title": "CSS",
-    "imageSrc": "css"
-  },
-  {
-    "title": "JavaScript",
-    "imageSrc": "javascript"
+    "title": ".net",
+    "imageSrc": "dotnet"
   },
   {
     "title": "ReactJS",
-    "imageSrc": "ireact"
+    "imageSrc": "react"
+  },
+  {
+    "title": "NodeJs",
+    "imageSrc": "node"
   },
   {
     "title": "SQL",
     "imageSrc": "sql"
   },
   {
-    "title": "Java",
-    "imageSrc": "java"
-  },
-  {
-    "title": "Kotlin",
-    "imageSrc": "kotlin"
-  },
-  {
     "title": "Python",
     "imageSrc": "python"
-  },
-  {
-    "title": "PHP",
-    "imageSrc": "php"
   }
+  
 ]

@@ -14,13 +14,10 @@ export const About = () => {
         <div className={styles.aboutItem}>
           <h3>About me</h3>
           <p>
-            Hi there! I'm a 4th-year Computer Science and Engineering student who loves creating things—whether it's a sleek web app or a fun Android game.
-            This portfolio is a little showcase of what I can do, and guess what? I made this entire site myself! I'm passionate about coding, always learning, and excited about the future. Thanks for stopping by!
+          Hi there! As a developer at a software company, I am passionate about creating seamless digital experiences. Currently working with C# .NET Core for backend and React for frontend, I enjoy building both robust systems and intuitive user interfaces. My journey has given me the chance to tackle diverse projects and continuously grow my skills. I’m always excited to take on new challenges and create meaningful solutions through technology.
           </p><div className={styles.resumeBtn}>
-            <a href="https://docs.google.com/document/d/1DU3qesTnvtBOxMY9b4ccouqYxIOWzZNaZP2aiVyKfvo/edit?usp=sharing"
-              className={styles.contactBtn}>
-              My Resume
-            </a></div>
+            <a href="https://www.linkedin.com/in/vanshieverma"
+              className={styles.contactBtn}>Visit my LinkedIn</a></div>
         </div>
       </div>
     </section>
