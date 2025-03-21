@@ -1,33 +1,32 @@
 [
   {
-    "title": "Chat Application",
+    "title": "AI Recipe Generator",
     "imageSrc": "projects/project.png",
-    "description": "Developed a feature-rich Android chat application focusing on real-time messaging.",
+    "description": "An AI-powered recipe generator built using the MERN stack, providing personalized recipe suggestions based on user input.",
     "skills": [
-      "Kotlin",
-      "XML",
-      "Google Firebase"
+      "MERN",
+      "AI"
     ],
-    "source": "https://github.com/vanshikaverma13/ChatApplication"
+    "source": "https://github.com/vanshieverma/ai-recipe-generator"
   },
   {
-    "title": "Code Editor",
+    "title": "Email Tracker",
     "imageSrc": "projects/project.png",
-    "description": "Provides real-time editing and previewing of HTML, CSS, and JavaScript at the same time.",
+    "description": "A .NET Core-based email tracking system that allows users to monitor when and where their emails are opened, with SQL database integration for data storage.",
     "skills": [
       "React",
-      "HTML","JavaScript"
+      ".NET Core",
+      "SQL"
     ],
-    "source": "https://github.com/vanshikaverma13/code-editor"
+    "source": "https://github.com/vanshieverma/email-tracker-backend"
   },
   {
-    "title": "News Application",
+    "title": "Portfolio",
     "imageSrc": "projects/project.png",
-    "description": "Utilized News API to fetch and display news articles based on various categories. ",
+    "description": "A personal portfolio website built with React, showcasing projects, skills, and experience in a visually appealing layout.",
     "skills": [
-      "React",
-      "HTML","JavaScript"
+      "React"
     ],
-    "source": "https://github.com/vanshikaverma13/news-world"
+    "source": "https://github.com/vanshieverma/my-portfolio"
   }
 ]
