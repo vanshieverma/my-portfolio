@@ -1,27 +1,9 @@
 [
-  {
-    "title": "C#",
-    "imageSrc": "cs"
-  },
-  {
-    "title": ".net",
-    "imageSrc": "dotnet"
-  },
-  {
-    "title": "ReactJS",
-    "imageSrc": "react"
-  },
-  {
-    "title": "NodeJs",
-    "imageSrc": "node"
-  },
-  {
-    "title": "SQL",
-    "imageSrc": "sql"
-  },
-  {
-    "title": "Python",
-    "imageSrc": "python"
-  }
-  
+  { "title": "Python", "imageSrc": "python" },
+  { "title": "C#", "imageSrc": "cs" },
+  { "title": "ASP.NET Core", "imageSrc": "dotnet" },
+  { "title": "React", "imageSrc": "react" },
+  { "title": "FastAPI", "imageSrc": "node" },
+  { "title": "SQL & NoSQL", "imageSrc": "sql" },
+  { "title": "LLMs & NLP", "imageSrc": "node" }
 ]

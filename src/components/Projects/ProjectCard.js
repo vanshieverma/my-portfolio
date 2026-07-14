@@ -2,13 +2,12 @@ import React from "react";
 import styles from "./ProjectCard.module.css";
 import project from "../../assets/projects/project.png";
 
-export const ProjectCard = ({
-  project: { title, imageSrc, description, skills, demo, source },
-}) => {
+export const ProjectCard = ({ project: { title, description, skills, source } }) => {
   return (
     <div className={styles.container}>
       <img
         src={project}
+        alt=""
         className={styles.image}
       />
       <h3 className={styles.title}>{title}</h3>
@@ -22,11 +21,9 @@ export const ProjectCard = ({
           );
         })}
       </ul>
-      <div className={styles.links}>
-        <a href={source} className={styles.link}>
-          Visit
-        </a>
-      </div>
+      {source && <div className={styles.links}>
+        <a href={source} className={styles.link} target="_blank" rel="noreferrer">View source</a>
+      </div>}
     </div>
   );
 };

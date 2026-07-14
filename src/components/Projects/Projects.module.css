@@ -1,26 +1,8 @@
 @import "../../vars.css";
 
-.container {
-  margin-top: 76px;
-  color: var(--color-text);
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
-.title {
-  font-size: 35px;
-  font-weight: 700;
-  letter-spacing: 1.75px;
-  text-transform: uppercase;
-}
-
-.projects {
-  margin-top: 37px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 50px;
-  width: 100%;
-}
+.container { width: min(1180px, calc(100% - 40px)); margin: 130px auto 0; }
+.title { margin-bottom: 42px; color: var(--color-dark); font-size: clamp(36px, 5vw, 58px); line-height: 1; letter-spacing: -0.045em; }
+.title::before { content: "03 / "; color: var(--color-primary); font-size: 14px; vertical-align: middle; }
+.projects { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+@media (max-width: 700px) { .projects { grid-template-columns: 1fr; } }
+@media (max-width: 480px) { .container { width: calc(100% - 28px); margin-top: 90px; } }

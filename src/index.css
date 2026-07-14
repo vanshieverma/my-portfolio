@@ -1,10 +1,14 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: "Outfit", Arial, Helvetica, sans-serif;
-}
+@import "./vars.css";
 
-html {
-  scroll-behavior: smooth;
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  min-width: 320px;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: "Outfit", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
+button, a { font: inherit; }
+img { display: block; max-width: 100%; }
+::selection { background: var(--color-accent); color: var(--color-dark); }

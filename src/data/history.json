@@ -1,13 +1,18 @@
 [
-    {
-      "role": "Backend Developer",
-      "description": "Skilled in building efficient and scalable server-side solutions using C# .NET Core.",
-      "imageSrc": "server"
-    },
-    {
-      "role": "Frontend Developer",
-      "description": "Creating intuitive and responsive user interfaces with React.",
-      "imageSrc": "ui"
-    }
-  ]
-  
+  {
+    "role": "Generative AI Analyst", "company": "WeLoGlobal", "period": "Jun 2026 — Present", "imageSrc": "cursor",
+    "description": "Refine prompts and labeled datasets, evaluate LLM outputs, quality-check annotation work, and coach teammates on prompt-writing standards."
+  },
+  {
+    "role": "Software Engineer", "company": "BharatLogic Advisory LLP", "period": "Mar 2025 — May 2026", "imageSrc": "server",
+    "description": "Built scalable APIs, full-stack applications, LLM automation, NLP pipelines, and an AI outbound voicebot using Python, Twilio, and ASP.NET Core."
+  },
+  {
+    "role": "AI Tutor — Data Annotation & Model Training", "company": "xAI", "period": "May 2025 — Nov 2025", "imageSrc": "cursor",
+    "description": "Produced and evaluated high-quality training data and supported the refinement of generative AI models."
+  },
+  {
+    "role": "Graduate Engineer Trainee", "company": "BharatLogic Advisory LLP", "period": "Aug 2024 — Mar 2025", "imageSrc": "ui",
+    "description": "Worked with C#, .NET, Entity Framework, GraphQL, API development, database design, testing, and production feature delivery."
+  }
+]

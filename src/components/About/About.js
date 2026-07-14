@@ -2,25 +2,25 @@ import React from "react";
 import styles from "./About.module.css";
 import aboutImage from "../../assets/about/aboutImage.png";
 
-export const About = () => {
-  return (
-    <section className={styles.container} id="about">
-      <h2 className={styles.title}>About Me</h2>
-      <div className={styles.content}>
-        <img
-          src={aboutImage}
-          className={styles.aboutImage}
-        />
-        <div className={styles.aboutItem}>
-          <h3>About me</h3>
-          <p>
-          Hi there! As a developer at a software company, I am passionate about creating seamless digital experiences. Currently working with C# .NET Core for backend and React for frontend, I enjoy building both robust systems and intuitive user interfaces. My journey has given me the chance to tackle diverse projects and continuously grow my skills. I’m always excited to take on new challenges and create meaningful solutions through technology.
-          </p><div className={styles.resumeBtn}>
-            <a href="https://www.linkedin.com/in/vanshieverma"
-              className={styles.contactBtn}>Visit my LinkedIn</a></div>
+export const About = () => (
+  <section className={styles.container} id="about">
+    <h2 className={styles.title}>About Me</h2>
+    <div className={styles.content}>
+      <img src={aboutImage} className={styles.aboutImage} alt="Developer at work" />
+      <div className={styles.aboutItem}>
+        <h3>Engineer. AI practitioner. Problem solver.</h3>
+        <p>
+          I work at the intersection of generative AI and software engineering.
+          My experience spans LLM evaluation and prompt engineering, AI voice
+          automation, REST APIs, and full-stack applications built with Python,
+          FastAPI, C#, ASP.NET Core, and React. I enjoy turning complex workflows
+          into useful, dependable products.
+        </p>
+        <div className={styles.resumeBtn}>
+          <a href={`${process.env.PUBLIC_URL}/Vanshika_Verma_Resume.pdf`}
+            className={styles.contactBtn} target="_blank" rel="noreferrer">View my resume</a>
         </div>
       </div>
-    </section>
-  );
-};
-
+    </div>
+  </section>
+);

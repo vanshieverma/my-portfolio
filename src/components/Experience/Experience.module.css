@@ -1,119 +1,23 @@
 @import "../../vars.css";
 
-.container {
-  color: var(--color-black);
-  margin-top: 79px;
-  margin-left: 10%;
-  margin-right: 10%;
-}
+.container { width: min(1180px, calc(100% - 40px)); margin: 120px auto 0; }
+.title { margin-bottom: 38px; color: var(--color-dark); font-size: clamp(36px, 5vw, 58px); line-height: 1; letter-spacing: -0.045em; }
+.title::before { content: "02 / "; color: var(--color-primary); font-size: 14px; letter-spacing: 0; vertical-align: middle; }
+.content { display: grid; grid-template-columns: 0.75fr 1.25fr; gap: clamp(40px, 7vw, 90px); align-items: start; }
+.skills { position: sticky; top: 110px; display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; }
+.skill { min-height: 138px; padding: 20px; display: flex; flex-direction: column; justify-content: space-between; border: 1px solid var(--color-line); border-radius: 16px; background: var(--color-surface); transition: 0.2s ease; }
+.skill:hover { border-color: var(--color-primary); transform: translateY(-3px); box-shadow: var(--shadow-sm); }
+.skillImageContainer { width: 48px; height: 48px; padding: 9px; display: grid; place-items: center; border-radius: 12px; background: var(--color-surface-soft); }
+.skillImageContainer img { width: 30px; height: 30px; object-fit: contain; }
+.skill p { color: var(--color-dark); font-size: 16px; font-weight: 600; }
+.history { display: flex; flex-direction: column; list-style: none; }
+.historyItem { position: relative; padding: 0 0 44px 34px; display: grid; grid-template-columns: 52px 1fr; gap: 20px; border-left: 1px solid var(--color-line); }
+.historyItem:last-child { padding-bottom: 0; }
+.historyItem::before { content: ""; position: absolute; left: -6px; top: 0; width: 11px; height: 11px; border-radius: 50%; background: var(--color-primary); box-shadow: 0 0 0 6px var(--color-bg); }
+.historyItem img { width: 52px; height: 52px; padding: 12px; border-radius: 14px; background: var(--color-surface-soft); }
+.historyItemDetails h3 { font-size: clamp(23px, 2.5vw, 30px); line-height: 1.15; letter-spacing: -0.025em; }
+.historyItemDetails span { display: block; margin: 7px 0 12px; color: var(--color-primary); font-size: 14px; font-weight: 600; }
+.historyItemDetails p { color: var(--color-muted); font-size: 17px; line-height: 1.65; }
 
-.title {
-  color: var(--color-black);
-  font-size: 35px;
-  font-weight: 700;
-  letter-spacing: 1.75px;
-  text-transform: uppercase;
-}
-
-.content {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  margin-top: 14px;
-}
-
-.skills {
-  width: 45%;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 37px;
-}
-
-.skill {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 11px;
-}
-
-.skillImageContainer {
-  background-color: var(--color-dark);
-  border-radius: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 120px;
-  height: 120px;
-}
-
-.skillImageContainer img {
-  width: 75px;
-}
-
-.skill p {
-  font-size: 25px;
-  font-family: var(--font-roboto);
-  font-weight: 500;
-}
-
-.history {
-  width: 45%;
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-}
-
-.historyItem {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 17px;
-  background: linear-gradient(90deg, hsla(177, 33%, 79%, 1) 50%, hsla(202, 17%, 42%, 1) 100%);
-  border-radius: 10px;
-  padding: 24px;
-}
-
-.historyItem img {
-  width: 50px;
-}
-
-.historyItemDetails {
-  font-family: var(--font-roboto);
-}
-
-.historyItemDetails h3 {
-  font-size: 30px;
-  font-weight: 500;
-}
-
-.historyItemDetails p {
-  font-size: 20px;
-  font-weight: 300;
-}
-
-.historyItemDetails ul {
-  margin-top: 6px;
-  list-style-position: inside;
-  font-size: 25px;
-  list-style-type: disc;
-  margin-left: 17px;
-}
-
-@media screen and (max-width: 830px) {
-  .content {
-    flex-direction: column;
-    align-items: center;
-    gap: 34px;
-  }
-
-  .skills {
-    width: 100%;
-    flex-direction: row;
-    justify-content: center;
-  }
-
-  .history {
-    width: 100%;
-    gap: 9px;
-  }
-}
+@media (max-width: 830px) { .content { grid-template-columns: 1fr; } .skills { position: static; grid-template-columns: repeat(3, 1fr); } }
+@media (max-width: 560px) { .container { width: calc(100% - 28px); margin-top: 80px; } .skills { grid-template-columns: repeat(2, 1fr); } .historyItem { padding-left: 22px; grid-template-columns: 1fr; } .historyItem img { display: none; } }

@@ -4,28 +4,13 @@ import emailIcon from "../../assets/contact/emailIcon.png";
 import linkedinIcon from "../../assets/contact/linkedinIcon.png";
 import githubIcon from "../../assets/contact/githubIcon.png";
 
-export const Contact = () => {
-  return (
-    <footer id="contact" className={styles.container}>
-      <div className={styles.text}>
-        <h2>Contact me!</h2>
-        <p>Feel free to reach out!</p>
-      </div>
-      <ul className={styles.links}>
-        <li className={styles.link}>
-          <img src={emailIcon} />
-          <a href="mailto:vanshieverma@email.com">vanshieverma@email.com</a>
-        </li>
-        <li className={styles.link}>
-          <img
-            src={linkedinIcon} />
-          <a href="https://www.linkedin.com/in/vanshieverma">linkedin.com/vanshieverma</a>
-        </li>
-        <li className={styles.link}>
-          <img src={githubIcon} />
-          <a href="https://www.github.com/vanshieverma">github.com/vanshieverma</a>
-        </li>
-      </ul>
-    </footer>
-  );
-};
+export const Contact = () => (
+  <footer id="contact" className={styles.container}>
+    <div className={styles.text}><h2>Let's connect</h2><p>Have an idea or opportunity? Reach out.</p></div>
+    <ul className={styles.links}>
+      <li className={styles.link}><img src={emailIcon} alt="Email" /><a href="mailto:vanshieverma@gmail.com">vanshieverma@gmail.com</a></li>
+      <li className={styles.link}><img src={linkedinIcon} alt="LinkedIn" /><a href="https://www.linkedin.com/in/vanshieverma" target="_blank" rel="noreferrer">linkedin.com/in/vanshieverma</a></li>
+      <li className={styles.link}><img src={githubIcon} alt="GitHub" /><a href="https://www.github.com/vanshieverma" target="_blank" rel="noreferrer">github.com/vanshieverma</a></li>
+    </ul>
+  </footer>
+);

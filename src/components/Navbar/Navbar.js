@@ -9,12 +9,13 @@ export const Navbar = () => {
   return (
     <nav className={styles.navbar}>
       <a className={styles.title} href="/">
-        portfolio
+        Vanshika Verma
       </a>
       <div className={styles.menu}>
         <img
           className={styles.menuBtn}
           src={menuOpen ? closeIcon : menuIcon}
+          alt="Toggle navigation"
           onClick={() => setMenuOpen(!menuOpen)}
         />
         <ul

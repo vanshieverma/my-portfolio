@@ -2,7 +2,6 @@ import React from "react";
 import styles from "./Experience.module.css";
 import skills from "../../data/skills.json";
 import history from "../../data/history.json";
-import { getImageUrl } from "../../utils";
 import serverIcon from "../../assets/history/serverIcon.png";
 import cursorIcon from "../../assets/history/cursorIcon.png";
 import uiIcon from "../../assets/history/uiIcon.png";
@@ -38,7 +37,7 @@ export const Experience = () => {
               <div key={id} className={styles.skill}>
                 <div className={styles.skillImageContainer}>
                   <img
-                    src={skillImages[skill.imageSrc]} />
+                    src={skillImages[skill.imageSrc]} alt="" />
                 </div>
                 <p>{skill.title}</p>
               </div>
@@ -50,10 +49,11 @@ export const Experience = () => {
             return (
               <li key={id} className={styles.historyItem}>
                 <img
-                  src={historyImages[historyItem.imageSrc]} />
+                  src={historyImages[historyItem.imageSrc]} alt="" />
                 <div className={styles.historyItemDetails}>
-                  <h3>{`${historyItem.role}`}</h3>
-                  <p>{`${historyItem.description} `}</p>
+                  <h3>{historyItem.role}</h3>
+                  <span>{historyItem.company} · {historyItem.period}</span>
+                  <p>{historyItem.description}</p>
                 </div>
               </li>
             );
