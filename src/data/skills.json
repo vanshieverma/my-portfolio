@@ -3,7 +3,7 @@
   { "title": "C#", "imageSrc": "cs" },
   { "title": "ASP.NET Core", "imageSrc": "dotnet" },
   { "title": "React", "imageSrc": "react" },
-  { "title": "FastAPI", "imageSrc": "node" },
+  { "title": "FastAPI", "imageSrc": "fastapi" },
   { "title": "SQL & NoSQL", "imageSrc": "sql" },
-  { "title": "LLMs & NLP", "imageSrc": "node" }
+  { "title": "LLMs & NLP", "imageSrc": "llm" }
 ]

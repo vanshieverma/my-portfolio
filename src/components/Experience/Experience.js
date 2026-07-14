@@ -10,7 +10,8 @@ import python from "../../assets/skills/python.png";
 import sql from "../../assets/skills/sql.png";
 import cs from "../../assets/skills/cs.png";
 import dotnet from "../../assets/skills/dotnet.png";
-import node from "../../assets/skills/node.png";
+import fastapi from "../../assets/skills/fastapi.png";
+import llm from "../../assets/skills/llm.avif";
 
 export const Experience = () => {
   const skillImages = {
@@ -19,7 +20,8 @@ export const Experience = () => {
     react: react,
     cs: cs,
     dotnet: dotnet,
-    node: node
+    fastapi: fastapi,
+    llm: llm
   };
 
   const historyImages = {
