@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.006ab54e.css",
-    "main.js": "/my-portfolio/static/js/main.04daa72c.js",
+    "main.js": "/my-portfolio/static/js/main.f52d6135.js",
     "static/media/heroImage.png": "/my-portfolio/static/media/heroImage.4274a8b015130ec64353.png",
     "static/media/project.png": "/my-portfolio/static/media/project.6b80dc22339b227d4ce7.png",
     "static/media/aboutImage.png": "/my-portfolio/static/media/aboutImage.3448a475dcd79f91bd92.png",
-    "static/media/node.png": "/my-portfolio/static/media/node.2c7ae698c567e6aafd9d.png",
+    "static/media/fastapi.png": "/my-portfolio/static/media/fastapi.181ddecfd4cfb977f6c8.png",
     "static/media/cs.png": "/my-portfolio/static/media/cs.15f7b7fa596f29c44592.png",
     "static/media/roboto-latin-400-normal.woff2": "/my-portfolio/static/media/roboto-latin-400-normal.297d48e1b5a10c0831a9.woff2",
     "static/media/outfit-latin-400-normal.woff": "/my-portfolio/static/media/outfit-latin-400-normal.741bd8369a31b33122b4.woff",
@@ -13,6 +13,7 @@
     "static/media/roboto-cyrillic-ext-400-normal.woff2": "/my-portfolio/static/media/roboto-cyrillic-ext-400-normal.5cec61a21cc20180fbe1.woff2",
     "static/media/outfit-latin-400-normal.woff2": "/my-portfolio/static/media/outfit-latin-400-normal.8f48df74b0b71f7810ab.woff2",
     "static/media/roboto-cyrillic-ext-400-normal.woff": "/my-portfolio/static/media/roboto-cyrillic-ext-400-normal.135d076fa32aa0b4d105.woff",
+    "static/media/llm.avif": "/my-portfolio/static/media/llm.d2a139ef559f506312fa.avif",
     "static/media/roboto-latin-ext-400-normal.woff2": "/my-portfolio/static/media/roboto-latin-ext-400-normal.2eeae187764baf05867d.woff2",
     "static/media/roboto-latin-ext-400-normal.woff": "/my-portfolio/static/media/roboto-latin-ext-400-normal.27da5b36b6d3a16f53f4.woff",
     "static/media/roboto-cyrillic-400-normal.woff2": "/my-portfolio/static/media/roboto-cyrillic-400-normal.a9e19870cf6c4b973427.woff2",
@@ -27,10 +28,10 @@
     "static/media/roboto-greek-ext-400-normal.woff": "/my-portfolio/static/media/roboto-greek-ext-400-normal.16eb83b4a3b1ea994243.woff",
     "index.html": "/my-portfolio/index.html",
     "main.006ab54e.css.map": "/my-portfolio/static/css/main.006ab54e.css.map",
-    "main.04daa72c.js.map": "/my-portfolio/static/js/main.04daa72c.js.map"
+    "main.f52d6135.js.map": "/my-portfolio/static/js/main.f52d6135.js.map"
   },
   "entrypoints": [
     "static/css/main.006ab54e.css",
-    "static/js/main.04daa72c.js"
+    "static/js/main.f52d6135.js"
   ]
 }
